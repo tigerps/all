@@ -30,22 +30,22 @@ const STOP_BEFORE_DOUBLE = params.get("stop") === "beforedouble";
 function hostOk() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML = "GoldHEN v2.4b18.12 Loaded ...";
+    m.innerHTML = "تم تحميل الجولد هين بنجاح ...";
   }
 }
 
 function hostFail() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML = "Failed to Load! Restart Your Console ...";
-    m.style.color = "yellow";
+    m.innerHTML = "حدث خطأ اغلق الصفحه وافتحها مره اخرى ...";
+    m.style.color = "red";
   }
 }
 
 function hostAlready() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML = "GoldHEN is Already Loaded ...";
+    m.innerHTML = "صلى على النبي ...";
   }
 }
 
