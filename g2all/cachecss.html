@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html manifest="css.manifest">
+<head>
+<title>PS4 [5.05] 7.00 - 14.02 FW GoldHEN Host by Tiger</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<script>
+history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
+function DisplayCacheProgress(){window.msgs.innerHTML="تم تحميل الكاش ✔";setTimeout(function(){window.msgs.innerHTML="اغلق الصفحه الأن واعد فتحها  ...";},1500);}
+window.applicationCache.addEventListener("progress",DLProgress,false);
+window.applicationCache.oncached=function(e){DisplayCacheProgress();};
+window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+window.applicationCache.onerror=function(e){window.msgs.innerHTML="حدث خطأ أغلق الصفحه واعد فتحها ...";};
+</script>
+<h1>PS4 [5.05] 7.00 - 14.02 FW GoldHEN Host by Tiger</h1>
+<hr>
+<br>
+</body>
+</html>
